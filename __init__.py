@@ -18,7 +18,7 @@ class LoadImageDownscale:
         files = folder_paths.filter_files_content_types(files, ["image"])
         return {
             "required": {
-                "images": (sorted(files), {"image_upload": True}),
+                "image": (sorted(files), {"image_upload": True}),
                 "max_size": ("INT", {"default": 1024, "min": 64, "max": 8192, "step": 64}),
             }
         }
