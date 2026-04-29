@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-image-load-downscale"
+version = "1.0.0"
+description = "ComfyUI custom node: Load Image with automatic scaling to a configurable max size"
+license = { text = "MIT" }
+
+[[project.urls]]
+"Repository" = "https://github.com/genomxy/image-load-downscale"
+
+[tool.comfy]
+PublisherId = "genomxy"
+DisplayName = "Load Image (max Size)"
+Icon = ""
